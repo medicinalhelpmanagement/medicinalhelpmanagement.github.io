@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+.option:hover{
+    background-color: rgba(79, 93, 106, 1)
+}
+
+.change-color:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(79, 93, 106, 1)
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(79, 93, 106, 1)
+}
+
+.funcionalidades{
+    /*background-color: rgb(70, 255, 153);*/
+    color: white;
+    background-color: rgb(99, 135, 172)
+}

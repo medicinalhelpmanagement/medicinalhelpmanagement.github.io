@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <meta id = "meta-description" name="description" content=""></meta>
+    <meta name="keywords" content="MHM, Saúde, Lares, Software, Aplicação"></meta>
+    <title>Medicinal Help Management</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+
+    <nav id="topo" class="text-center navbar navbar-expand-lg navbar-light bg-secondary">
+      <div class="container">
+          <img id="logo" class="rounded mr-4" style="width: 4%;height: 4%;" src="images/logo.png">
+          <a class="text-white navbar-brand font-weight-bold" href="#">Medicinal Help Management</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+
+              <li class="nav-item">
+                <a class="nav-link text-white option" href="index.html">Home</a>
+              </li>
+
+              <!--<li class="nav-item">
+                <a class="nav-link text-white option" href="http://mhm.di.uminho.pt:50102/login">Aplicação</a>
+              </li>-->
+            
+              <li class="nav-item" >
+                <a class="nav-link text-white option" href="#intro">Sobre</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link text-white option" href="#funcionalidades">Funcionalidades</a>
+              </li>
+              
+              <li class="nav-item">
+                  <a class="nav-link text-white option" href="#tutoriais">Tutoriais</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link text-white option" href="#equipa">Equipa</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link text-white option" href="termos-servico.html">Termos de Serviço</a>
+              </li>
+
+              <!--<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+              </li>-->
+          </ul>
+          </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row justify-content-center mt-5">
+            <a href="http://mhm.di.uminho.pt:50102/login"><h2 class="text-center">Ir para a aplicação MHM!</h2></a>
+        </div>
+       
+        <div class="row justify-content-center" style="margin-top: 4%;">
+            <h1 id="intro" class="text-center font-weight-bold">Porquê a MHM?</h1>
+        </div>
+
+        <div class="row justify-content-center text-center" style="margin-top: 4%;">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" style="padding-left: 12%; padding-right: 12%; padding-bottom: 6%;">
+              <div class="carousel-item active">
+                <!--<img src="..." class="d-block w-100" alt="...">-->
+                <h3>Após termos contactado vários lares e centros de dia, apercebemo-nos que a falta de organização ainda é um problema.</h3>
+              </div>
+              <div class="carousel-item">
+                <h3>Observamos que há poucas aplicações que atendam às necessidades e as que existem não são simples de utilizar.</h3>
+              </div>
+              <div class="carousel-item">
+                <h3>A solução: MHM!<br>Com intuito de ajudar estas instituições no seu dia a dia, apoiando nas tarefas dos diretores técnicos, enfermeiros e auxiliares de saúde.</h3>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+        <hr style="margin-top: 4%;">
+
+        <div class="row justify-content-center">
+            <h1 id="funcionalidades" class="text-center font-weight-bold">O que é a MHM?</h1>
+        </div>
+
+        <div class="row justify-content-center" style="margin-top: 2%;">
+            <div class="card change-color shadow funcionalidades" style="width: 18rem;margin-left: 2%;margin-top: 2%;">
+                <div class="card-body text-center mt-1">
+                  <img class="mb-3" style="width: 25%;height: 25%;" src="images/multi-platform.svg">
+                  <h5 class="card-title font-weight-bold">Aplicação multi-plataforma</h5>
+                  <p class="card-text">Trata-se de uma aplicação web, pelo que é acessível em qualquer dispositivo e em qualquer lugar.</p>
+                </div>
+            </div>
+            <div class="card change-color shadow funcionalidades" style="width: 18rem; margin-left: 2%;margin-top: 2%;">
+                <div class="card-body text-center">
+                    <img class="mb-3" style="width: 25%;height: 25%;" src="images/digitalization.svg">
+                    <h5 class="card-title font-weight-bold">Digitalização da Informação</h5>
+                    <p class="card-text">Todos os registos do seu lar acessíveis em qualquer lugar de forma mais eficiente, para evitar o uso do papel.</p>
+                </div>
+            </div>
+            <div class="card change-color shadow funcionalidades" style="width: 18rem;margin-left: 2%;margin-top: 2%;">
+                <div class="card-body text-center mt-2">
+                  <img class="mb-3" style="width: 20%;height: 20%;" src="images/notification.svg">
+                  <h5 class="card-title font-weight-bold">Notificações</h5>
+                  <p class="card-text">Sistema de notificações para todas as tarefas ou ocorrências, para evitar erros no seu lar.</p>
+                </div>
+            </div>
+            <div class="card change-color shadow funcionalidades" style="width: 18rem;margin-left: 2%;margin-top: 2%;">
+                <div class="card-body text-center">
+                  <img class="mb-3" style="width: 30%;height: 30%;" src="images/calendar.svg">
+                  <h5 class="card-title font-weight-bold">Calendarização</h5>
+                  <p class="card-text">Controle e monitorize todas as tarefas executadas no seu lar, para que nada seja esquecido.</p>
+                </div>
+            </div>
+            <div class="card change-color shadow funcionalidades" style="width: 18rem;margin-left: 2%;margin-top: 2%;">
+                <div class="card-body text-center">
+                  <img class="mb-3" style="width: 25%;height: 25%;" src="images/warehouse.svg">
+                  <h5 class="card-title font-weight-bold">Gestão de stock</h5>
+                  <p class="card-text">Controle o stock por utente e instituição, sendo notificado quando o stock está em níveis baixos.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr style="margin-top: 7%;">
+
+        <div class="row justify-content-center">
+            <h1 id="tutoriais" class="text-center font-weight-bold">Algumas das funcionalidades...</h1>
+        </div>
+
+        <div class="row justify-content-center" style="margin-top: 2%;">
+          <div id="registar-utente-button" onclick="updateTutorial('#registar-utente');" class="card change-color shadow funcionalidades" style="margin-left: 2%;margin-top: 2%;">
+              <div class="card-body text-center mt-1">
+                <h5 class="card-title font-weight-bold">Registar Utente</h5>
+              </div>
+          </div>
+          <div id="inserir-stock-button" onclick="updateTutorial('#inserir-stock');" class="card change-color shadow funcionalidades" style="margin-left: 2%;margin-top: 2%;">
+            <div class="card-body text-center mt-1">
+              <h5 class="card-title font-weight-bold">Inserir um produto do Utente</h5>
+            </div>
+          </div>
+          <div id="consultar-stock-button" onclick="updateTutorial('#consultar-stock');" class="card change-color shadow funcionalidades" style="margin-left: 2%;margin-top: 2%;">
+            <div class="card-body text-center mt-1">
+              <h5 class="card-title font-weight-bold">Consultar um produto do Utente</h5>
+            </div>
+          </div>
+      </div>
+
+        <!-- REGISTAR UTENTE -->
+        <div id="registar-utente-carousel" class="row justify-content-center text-center" style="display: none;margin-top: 4%;">
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner" style="padding-left: 12%; padding-right: 12%; padding-bottom: 6%;">
+              <div class="carousel-item active">
+                <h3 class="mb-4">1. Insira a informação básica do Utente.</h3>
+                <img src="tutoriais/registar-utente/info-basica.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">2. Insira a morada do Utente.</h3>
+                <img src="tutoriais/registar-utente/morada.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">3. Insira a informação sobre o médico do Utente.</h3>
+                <img src="tutoriais/registar-utente/medico.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">4. Verifique que a informação está corretamente inserida.</h3>
+                <img src="tutoriais/registar-utente/medico-e-morada.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">5. Insira a informação sobre um familiar do Utente.</h3>
+                <img src="tutoriais/registar-utente/parente.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">6. Por último, carregue no botão 'registar utente'.</h3>
+                <img src="tutoriais/registar-utente/final.png" style="width: 100%; height: 100%;">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+
+        <!-- INSERIR STOCK -->
+        <div id="inserir-stock-carousel" class="row justify-content-center text-center" style="display: none; margin-top: 4%;">
+          <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" style="padding-left: 12%; padding-right: 12%; padding-bottom: 6%;">
+              <div class="carousel-item active">
+                <h3 class="mb-4">1. Carregue no botão 'Consulta de Stock' no perfil do Utente.</h3>
+                <img src="tutoriais/inserir-stock/botao.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">2. Carregue no botão 'Inserção'.</h3>
+                <img src="tutoriais/inserir-stock/tipos.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">3. Insira a informação sobre o produto.</h3>
+                <img src="tutoriais/inserir-stock/inserir.png" style="width: 100%; height: 100%;">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+
+        <!-- CONSULTAR STOCK -->
+        <div id="consultar-stock-carousel" class="row justify-content-center text-center" style="display: none; margin-top: 4%;">
+          <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators3" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators3" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner" style="padding-left: 12%; padding-right: 12%; padding-bottom: 6%;">
+              <div class="carousel-item active">
+                <h3 class="mb-4">1. Carregue no botão 'Consulta de Stock' no perfil do Utente.<br><br></h3>
+                <img src="tutoriais/consultar-stock/1.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">2. Carregue na imagem correspondente ao tipo de produto que pretende consultar.</h3>
+                <img src="tutoriais/consultar-stock/2.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">3. Carregue no botão 'Consulta' sobre o produto que pretende.<br><br></h3>
+                <img src="tutoriais/consultar-stock/3.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">4. Pode visualizar a informação básica sobre o produto. Pode ainda carregar no botão 'Histórico de compras' ou 'Histórico de consumo'.</h3>
+                <img src="tutoriais/consultar-stock/4.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">5. Pode visualizar o 'Histórico de compras'.<br><br></h3>
+                <img src="tutoriais/consultar-stock/historico-compras.png" style="width: 100%; height: 100%;">
+              </div>
+              <div class="carousel-item">
+                <h3 class="mb-4">6. Pode visualizar o 'Histórico de consumo'.<br><br></h3>
+                <img src="tutoriais/consultar-stock/historico-consumos.png" style="width: 100%; height: 100%;">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      
+        <hr style="margin-top: 7%;">
+
+        <div class="row justify-content-center">
+            <h1 id="equipa" class="text-center font-weight-bold">Equipa</h1>
+        </div>
+
+        <div class="row justify-content-center" style="margin-bottom: 2%; margin-top: 2%;">
+            <div class="card change-color shadow" style="width: 10rem;margin-left: 2%;margin-top: 2%;">
+                <img class="card-img-top" src="https://avatars.githubusercontent.com/u/35670687?s=400&u=052b60dae47f4bcebfe85bf07a45b4351757b270&v=4" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Carlos Barbosa</h5>
+                  <p class="card-text text-center">Programador de backend & frontend</p>
+                  <br>
+                  <div class="text-center">
+                    <a href="https://github.com/adolfothedias">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="card change-color shadow" style="width: 10rem;margin-left: 2%;margin-top: 2%;">
+                <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/C5603AQErEPrjjBBwdQ/profile-displayphoto-shrink_200_200/0/1582557991236?e=1617235200&v=beta&t=dv5JixpXtfCn3N6LPnrc6UVB7z4C0QmCm5d_VGTXDbE" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Henrique Faria</h5>
+                  <p class="card-text text-center">CISO & Programador backend</p>
+                  <br>
+                  <div class="text-center">
+                    <a href="https://www.linkedin.com/in/henrique-faria-8862b817b/">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                      </svg>
+                    </a>
+                    <a href="https://github.com/henriquejosefaria">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="card change-color shadow" style="width: 10rem;margin-left: 2%;margin-top: 2%;">
+                <img class="card-img-top" src="https://scontent-lis1-1.xx.fbcdn.net/v/t1.0-9/14449876_1694765597512425_6739064864833689560_n.jpg?_nc_cat=106&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeH4MyHstF3Ig4LoKVatoImUupdoGOIeOam6l2gY4h45qa9kTanUlk_pEM_StxMBVKSQCKhfnKC1TPjBd3LSTVCZ&_nc_ohc=X_s5j3k16fcAX-iKRN-&_nc_ht=scontent-lis1-1.xx&oh=89d858bc0a8eaa6392aa8b4c4e58f1b7&oe=603B3FE5" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">João Mendes</h5>
+                  <p class="card-text text-center">Programador backend</p>
+                  <br>
+                  <br>
+                  <div class="text-center">
+                    <a href="https://github.com/JMendes95">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="card change-color shadow" style="width: 10rem;margin-left: 2%;margin-top: 2%;">
+              <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/C4D03AQGEB0zWxl6LEA/profile-displayphoto-shrink_400_400/0/1600432682666?e=1617235200&v=beta&t=FOIxIkx6XR6kC1X-zDA_ucTNf2Iy2m6_jlGeshDMHKs" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-center">João Marques</h5>
+                <p class="card-text text-center">Arquiteto de Software & Programador de backend</p>
+                <div class="text-center">
+                  <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-marques-684165182/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                  </a>
+                  <a href="https://github.com/marquinhos87">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- new line -->
+        
+        <div class="row justify-content-center">
+            <div class="card change-color shadow" style="width: 10rem;margin-left: 2%;margin-top: 2%">
+                <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/C5603AQG8Ot6adcM2IA/profile-displayphoto-shrink_200_200/0?e=1612396800&v=beta&t=8T4thUyTS-0BMUJJVDrofZqRP18p_AaNj4wubb8zq6o" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">José<br>Pereira</h5>
+                  <p class="card-text text-center">Arquiteto de Software & Programador de backend</p>
+                  <div class="text-center">
+                    <a href="https://www.linkedin.com/in/jos%C3%A9-pereira-b18750164/">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                      </svg>
+                    </a>
+                    <a href="https://github.com/josepereira1">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+            </div></a>
+            <div class="card change-color shadow" style="width: 10rem;margin-left: 2%;margin-top: 2%">
+                <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/C4D03AQHdfI7vNK2xJA/profile-displayphoto-shrink_200_200/0/1600453632622?e=1617235200&v=beta&t=S8P_Tl_QDm7FsRekPP-SlWXxQsK_0JOeuVV5Ph95dvQ" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">José Carvalho</h5>
+                  <p class="card-text text-center">Programador de backend & frontend</p>
+                  <br>
+                  <div class="text-center">
+                    <a href="https://www.linkedin.com/in/jos%C3%A9-pedro-carvalho-2341601b5/">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                      </svg>
+                    </a>
+                    <a href="https://github.com/josezitopedrito">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="card change-color shadow" style="width: 10rem;margin-left: 2%;margin-top: 2%;">
+              <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/C4E03AQEe0FoAH1iOOA/profile-displayphoto-shrink_200_200/0/1598114103102?e=1617235200&v=beta&t=13rt8SF-gqa6bYvLCFwFiVntr2-v1fBV4G0J-OyFA20" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-center">Ricardo Petronilho</h5>
+                <p class="card-text text-center">Arquiteto de Software & Programador de backend</p>
+                <div class="text-center">
+                  <a href="https://www.linkedin.com/in/ricardo-petronilho-126a511b2/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                  </a>
+                  <a href="https://github.com/RicardoPetronilho98">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+          </div>
+          <div class="card change-color shadow" style="width: 10rem;margin-left: 2%;margin-top: 2%;">
+              <img class="card-img-top" src="https://avatars.githubusercontent.com/u/36702389?s=400&u=f6f53b9a35f1b4d96bc123dc969dd9fb1c77c715&v=4" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-center">Ricardo Martins</h5>
+                <p class="card-text text-center">Programador de backend & frontend</p>
+                <br>
+                <div class="text-center">
+                  <a href="https://github.com/xekster">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+          </div>
+          <div class="card change-color shadow" style="width: 10rem;margin-left: 2%;margin-top: 2%;">
+              <img class="card-img-top" src="images/profile" alt="Card image cap">
+              <div class="card-body" style="position: relative;">
+                <h5 class="card-title text-center">Roberto Cachada</h5>
+                <p class="card-text text-center">Programador de backend</p>
+                <br>
+                <br>
+                <div class="text-center" style="bottom: 0;">
+                  <a href="https://github.com/robertocachada">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <a href="#topo"><h3>[Ir para cima]</h3></a>
+        </div>
+    </div>
+
+    <footer class="bg-secondary text-white text-center text-lg-start" style="margin-top: 4%;">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col mb-4 mb-md-0">
+            <h5 class="text-uppercase">Âmbito do projeto</h5>
+            <p>
+              O produto MHM foi desenvolvido no âmbito da unidade curricular <a style="color:orange;" href="https://miei.di.uminho.pt/pei.html">Projeto em Engenharia Informática</a> da <a style="color:white; text-decoration-line: underline;" href="https://www.uminho.pt/EN">Universidade do Minho</a>. 
+            </p>
+            <img src="images/um.png" style="height: 35%; height: 35%;"/>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col mb-4 mb-md-0">
+            <h5 class="text-uppercase">Informações</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="http://mhm.di.uminho.pt:50102/login" class="text-white">Ir para a aplicação MHM</a>
+              </li>
+              <li>
+                <a href="mailto:medicinal.help.management@gmail.com" class="text-white">Enviar email para medicinal.help.management@gmail.com</a>
+              </li>
+              <li>
+                <a href="https://github.com/Medicinal-Help-Management" class="text-white">Página Github</a>
+              </li>
+              <li>
+                <a href="https://github.com/josepereira1/pei" class="text-white">Código open-source</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <!--<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Links</h5>
+  
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>-->
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+        <div class="row">
+          <div class="col-6">
+            <div>Multi platform icon made by <a style="color: azure; text-decoration-line: underline;" href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a> from <a style="color: azure; text-decoration-line: underline;" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Notification icon made by <a style="color: azure; text-decoration-line: underline;" href="https://www.freepik.com" title="Freepik">Freepik</a> from <a style="color: azure; text-decoration-line: underline;" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          </div>
+          <div class="col-6">
+            <div>Digitalization icon made by <a style="color: azure; text-decoration-line: underline;" href="https://www.freepik.com" title="Freepik">Freepik</a> from <a style="color: azure; text-decoration-line: underline;" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Calendar icon made by <a style="color: azure; text-decoration-line: underline;" href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a style="color: azure; text-decoration-line: underline;" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div>Stock icon made by <a style="color: azure; text-decoration-line: underline;" href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a style="color: azure; text-decoration-line: underline;" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          </div>
+        </div>  
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-white text-center p-3" style="background-color: rgb(79, 93, 106)">
+        <a class="text-white col" href="http://mhm.di.uminho.pt:50102/login">© 2021 Copyright: MHM</a><a style="color: white;" class="col" href="termos-servico.html">Termos de Serviço</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="jquery-3-3-1/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
+</html>
